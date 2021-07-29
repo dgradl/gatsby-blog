@@ -66,4 +66,14 @@ public
 # contentful config file
 .contentful.json
 # Local Netlify folder
-.netlify
+.netlify# All environment variables will be sourced
+# and made available to gatsby-config.js, gatsby-node.js, etc.
+# Do NOT commit this file to source control
+CONTENTFUL_SPACE_ID='dl0m8qk87lga'
+CONTENTFUL_ACCESS_TOKEN='3AJciYVfpowcUv8SCPqxDYnVTreHuKaZpqOQhnyaBbY'
+# All environment variables will be sourced
+# and made available to gatsby-config.js, gatsby-node.js, etc.
+# Do NOT commit this file to source control
+CONTENTFUL_SPACE_ID='dl0m8qk87lga'
+CONTENTFUL_ACCESS_TOKEN='3AJciYVfpowcUv8SCPqxDYnVTreHuKaZpqOQhnyaBbY'
+.env.*
